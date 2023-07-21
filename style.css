@@ -1,0 +1,44 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 12, 123, 1) 18%,
+    rgba(29, 9, 121, 1) 43%,
+    rgba(1, 205, 250, 1) 98%
+  );
+}
+
+.cursor {
+  width: 80px;
+  height: 80px;
+  transition: 0.3s;
+}
+
+.cursori img {
+  width: 40px;
+  height: 40px;
+}
+div {
+  display: flex;
+  color: white;
+  font-size: 45px;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 45px;
+}
+#select {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 80px;
+  text-transform: uppercase;
+  height: 30px;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgb(203, 69, 69) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
